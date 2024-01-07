@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EducationTemp</title>
+    <!-- Tailwind css cdn  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Daisyui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.5.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/c45a42ecc7.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-blue-950 text-white">
+    <header>
+        <!-- navbar  -->
+        <div class="navbar  px-12 text-white">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-sky-800 rounded-box w-52 text-lg gap-5">
+                    <li><a>Home</a></li>
+                    <li><a>Course</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Shop</a></li>
+                    <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href=""><i class="fa-solid fa-user"></i></a>
+                    <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="" >Login</a>
+                    <a class="outline rounded-tl-2xl rounded-br-2xl px-5 py-1 cursor-pointer">Signup</a>
+                </ul>
+              </div>
+              <h1 class=" text-2xl  cursor-pointer hover:text-amber-500"><span class=" font-bold">Education</span>Temp</h1>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 text-lg">
+                <li class="hover:text-amber-500"><a>Home</a></li>
+                <li class="hover:text-amber-500"><a>Course</a></li>
+                <li class="hover:text-amber-500"><a>Blog</a></li>
+                <li class="hover:text-amber-500"><a>Shop</a></li>
+              </ul>
+            </div>
+           <div class="gap-10 ps-32  hidden lg:flex text-lg">
+            <a href="" class="hover:text-amber-500"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="" class="hover:text-amber-500"><i class="fa-solid fa-user"></i></a>
+             <a href="" class="hover:text-amber-500"><i class="fa-solid fa-magnifying-glass"></i></a>
+            
+           </div>
+            <div class="navbar-end gap-10  hidden lg:flex text-lg">
+                <a href=" " class="hover:text-amber-500">Login</a>
+              <a class="outline rounded-tl-2xl rounded-br-2xl px-5 py-1 cursor-pointer hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">Signup</a>
+            </div>
+          </div>
+          <div class="pb-10 px-12 text-white"><hr class="border-b text-lg border-dashed border-blue-600 "  /></div>
+          
+    </header>
+    <!-- banner section  -->
+    <section >
+        <div class="text-center">
+            <h1 class="text-5xl font-bold">Good coaching is good teaching</h1> <br>
+            <p class="mt-5">In a coaching role, you ask the questions and rely more on your staff, who become the <br> experts, to provide the information.</p> <br> 
+        </div>
+
+             <div class=" flex  gap-10 justify-center items-center my-10 ">
+                <a href="" class="outline rounded-tl-2xl rounded-br-2xl px-5 py-1 cursor-pointer hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">Join as Student</a>
+                <a href="" class="outline rounded-tl-2xl rounded-br-2xl px-5 py-1 cursor-pointer hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">Join as Instructor</a>
+                   
+            </div> 
+            
+            <div class="w-1/2 mx-auto mt-[-100px]  ">
+                <img src="images/banner.png" alt="" >
+            </div>
+        </div>
+    </section>
+    <!-- Carousel Section  -->
+    <section class="my-10 ">
+      <!-- slide 1 -->
+      <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full">
+          <div class="flex justify-between items-center gap-28 duration-700 px-20  ease-in-out" data-carousel-item>
+            <!-- card 01 -->
+             <a href="#" class="block max-w-sm  shadow">
+              <img src="images/Group.png" alt="">
+             </a>
+              <!-- card 02 -->
+              <a href="#" class="block max-w-sm   shadow ">
+                <img src="images/Group 512823.png" alt="">
+               </a>
+            
+              <!-- card 03 -->
+              <a href="#" class="block max-w-sm   shadow ">
+                <img src="images/Group 512822.png" alt="">
+               </a>
+            
+              <!-- card 04 -->
+              <a href="#" class="block max-w-sm  shadow ">
+                <img src="images/Group (1).png" alt="">
+               </a>
+              <!-- card 05 -->
+              <a href="#" class="block max-w-sm  shadow ">
+                <img src="images/Group (2).png" alt="">
+               </a>
+        </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 " >❮</a> 
+            <a href="#slide2" class="btn hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ">❯</a>
+          </div>
+        </div> 
+
+        <!-- slide 02  -->
+        <div id="slide2" class="carousel-item relative w-full">
+          <div class="flex justify-between items-center gap-28 duration-700 px-20  ease-in-out" data-carousel-item>
+            <!-- card 01 -->
+             <a href="#" class="block max-w-sm  shadow">
+              <img src="images/Group.png" alt="">
+             </a>
+              <!-- card 02 -->
+              <a href="#" class="block max-w-sm   shadow ">
+                <img src="images/Group 512823.png" alt="">
+               </a>
+            
+              <!-- card 03 -->
+              <a href="#" class="block max-w-sm   shadow ">
+                <img src="images/Group 512822.png" alt="">
+               </a>
+            
+              <!-- card 04 -->
+              <a href="#" class="block max-w-sm  shadow ">
+                <img src="images/Group (1).png" alt="">
+               </a>
+              <!-- card 05 -->
+              <a href="#" class="block max-w-sm  shadow ">
+                <img src="images/Group (2).png" alt="">
+               </a>
+        </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">❮</a> 
+            <a href="#slide3" class="btn hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">❯</a>
+          </div>
+        </div> 
+    
+         <!-- slide 03 -->
+
+        <div id="slide3" class="carousel-item relative w-full">
+          <div class="flex justify-between items-center gap-28 duration-700 px-20  ease-in-out" data-carousel-item>
+            <!-- card 01 -->
+             <a href="#" class="block max-w-sm  shadow">
+              <img src="images/Group.png" alt="">
+             </a>
+              <!-- card 02 -->
+              <a href="#" class="block max-w-sm   shadow ">
+                <img src="images/Group 512823.png" alt="">
+               </a>
+            
+              <!-- card 03 -->
+              <a href="#" class="block max-w-sm   shadow ">
+                <img src="images/Group 512822.png" alt="">
+               </a>
+            
+              <!-- card 04 -->
+              <a href="#" class="block max-w-sm  shadow ">
+                <img src="images/Group (1).png" alt="">
+               </a>
+              <!-- card 05 -->
+              <a href="#" class="block max-w-sm  shadow ">
+                <img src="images/Group (2).png" alt="">
+               </a>
+        </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">❮</a> 
+            <a href="#slide1" class="btn hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">❯</a>
+          </div>
+        </div> 
+      </div>
+    </section>
+
+      <main>
+        <!-- Featured Courses section -->
+        <section class="mt-20">
+            <div class="text-center">
+                <p>Join Dominie At Best</p>
+                <h1 class="text-3xl font-bold">Featured Courses</h1>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-12 my-10 gap-10">
+               <!-- card-01  -->
+                <div class="card w-96 bg-[#231d49] shadow-xl">
+                    <figure><img src="images/matrix-hacker-background 1.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <p>Web Development</p>
+                      <h2 class="card-title ">
+                        Motion Graphics: Create a Nice <br>Typography Animation
+                      </h2>
+                      <div class="card-actions pt-5 ">
+                        <p class="">5,957 students</p> 
+                        <p class="ps-36">01h 49m</p>
+                      </div>
+                    </div>
+                </div>
+                
+                <!-- card-02  -->
+                <div class="card w-96 bg-[#231d49] shadow-xl">
+                    <figure><img src="images/ai-technology-microchip-background-digital-transformation-concept 1.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <p>Web Development</p>
+                      <h2 class="card-title ">
+                        Motion Graphics: Create a Nice <br>Typography Animation
+                      </h2>
+                      <div class="card-actions pt-5 ">
+                        <p class="">5,957 students</p> 
+                        <p class="ps-36">01h 49m</p>
+                      </div>
+                    </div>
+                </div>
+                <!-- card-03  -->
+                <div class="card w-96 bg-[#231d49] shadow-xl">
+                    <figure><img src="images/cloud-data-storage-rack-concept-glass-cube-cloudscape-digital-metaverse-server-global-network-business-web-database-backup-computer-private-infrastructure-technology 1.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <p>Web Development</p>
+                      <h2 class="card-title ">
+                        Motion Graphics: Create a Nice <br>Typography Animation
+                      </h2>
+                      <div class="card-actions pt-5 ">
+                        <p class="">5,957 students</p> 
+                        <p class="ps-36">01h 49m</p>
+                      </div>
+                    </div>
+                </div>
+                <!-- card-04  -->
+                <div class="card w-96 bg-[#231d49] shadow-xl">
+                    <figure><img src="images/4.png.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <p>Web Development</p>
+                      <h2 class="card-title ">
+                        Motion Graphics: Create a Nice <br>Typography Animation
+                      </h2>
+                      <div class="card-actions pt-5 ">
+                        <p class="">5,957 students</p> 
+                        <p class="ps-36">01h 49m</p>
+                      </div>
+                    </div>
+                </div>
+                <!-- card-05  -->
+                <div class="card w-96 bg-[#231d49] shadow-xl">
+                    <figure><img src="images/5.png.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <p>Web Development</p>
+                      <h2 class="card-title ">
+                        Motion Graphics: Create a Nice <br>Typography Animation
+                      </h2>
+                      <div class="card-actions pt-5 ">
+                        <p class="">5,957 students</p> 
+                        <p class="ps-36">01h 49m</p>
+                      </div>
+                    </div>
+                </div>
+                <!-- card-06  -->
+                <div class="card w-96 bg-[#231d49] shadow-xl">
+                    <figure><img src="images/6.png.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <p>Web Development</p>
+                      <h2 class="card-title ">
+                        Motion Graphics: Create a Nice <br>Typography Animation
+                      </h2>
+                      <div class="card-actions pt-5 ">
+                        <p class="">5,957 students</p> 
+                        <p class="ps-36">01h 49m</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" flex justify-center items-center my-10 ">
+                
+                <a class="outline rounded-tl-2xl rounded-br-2xl px-5 py-1 cursor-pointer hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">Learn More</a>
+            </div>
+        </section>
+        <!-- Top Categories section  -->
+        <section>
+            <h1 class="text-3xl font-bold text-center mt-20" >Top Categories</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-12 my-10 gap-10">
+          <!-- card-01  -->
+          <div class="card lg:card-side outline shadow-xl">
+            <div class="py-5 ps-5">
+                <figure><img src="images/icons/Icon.png" alt="Album" class="bg-red-500 rounded-xl text-xl p-7" /></figure>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">Digital Marketing</h2>
+              <p>25 Courses</p>
+            </div>
+          </div>
+          <!-- card-02  -->
+          <div class="card lg:card-side outline shadow-xl">
+            <div class="py-5 ps-5">
+                <figure><img src="images/icons/Icon (1).png" alt="Album" class="bg-green-400 rounded-xl text-xl p-7" /></figure>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">Graphic Design</h2>
+              <p>85 Courses</p>
+            </div>
+          </div>
+          <!-- card-03  -->
+          <div class="card lg:card-side outline shadow-xl">
+            <div class="py-5 ps-5">
+                <figure><img src="images/icons/Icon (2).png" alt="Album" class="bg-violet-500 rounded-xl text-xl p-7" /></figure>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">Art & Humanities</h2>
+              <p>76 Courses</p>
+            </div>
+          </div>
+          <!-- card-04  -->
+          <div class="card lg:card-side outline shadow-xl">
+            <div class="py-5 ps-5">
+                <figure><img src="images/icons/Vector.png" alt="Album" class="bg-yellow-400 rounded-xl text-xl p-7" /></figure>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">Personal Development</h2>
+              <p>22 Courses</p>
+            </div>
+          </div>
+          <!-- card-05  -->
+          <div class="card lg:card-side outline shadow-xl">
+            <div class="py-5 ps-5">
+                <figure><img src="images/icons/Icon (3).png" alt="Album" class="bg-sky-600 rounded-xl text-xl p-7" /></figure>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">IT and Software</h2>
+              <p>110 Courses</p>
+            </div>
+          </div>
+          <!-- card-06  -->
+          <div class="card lg:card-side outline shadow-xl">
+            <div class="py-5 ps-5">
+                <figure><img src="images/icons/Icon (4).png" alt="Album" class="bg-green-300 rounded-xl text-xl p-7" /></figure>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">Web Development</h2>
+              <p>16 Courses</p>
+            </div>
+          </div>
+
+            </div>
+        </section>
+        <!-- what our students say? section  -->
+        <section class="bg-[#2D2752] mx-12 rounded-xl my-20 shadow-xl pb-5">
+            <div class="grid grid-cols-1 lg:grid-cols-2">
+                <div>
+                  <img src="images/rocket-launch-laptop-flying-rocket-icon-business-startup-project-concept 2.png" alt="">
+                </div>
+                <div class="text-center mt-16 " >
+                 <p>Testimonials</p>
+                 <h1 class="text-3xl font-semibold">what our students say?</h1>
+                 <div class="grid grid-cols-1  lg:grid-cols-5 mt-10 px-10">
+                    <img src="images/Option ⏵ 1.png.png" alt="">
+                    <img src="images/Option ⏵ 2.png.png" alt="">
+                    <img src="images/Option ⏵ 3.png.png" alt="">
+                    <img src="images/Option ⏵ 4.png.png" alt="">
+                    <img src="images/Option ⏵ 5.png.png" alt="">
+                 </div>
+                 <h1 class="text-xl mt-10">Ramjan Ali Anik</h1>
+                 <p class="">Bostsolf.co</p>
+                 <p class="mt-3">One ipsum dolor sit amet, elit, sed do eiusmod tempor ut labore et <br>dolore magna aliqua. Quis ipsum ultrices gravida. Risus dolore <br>
+                    magna aliqua. Quis ipsum ultrices gravida.</p>
+
+                </div>
+            </div>
+        </section>
+        <!-- About latest tips,news and course section  -->
+        <section>
+            <div class=" text-center">
+                <h1 class="text-3xl font-semibold">About latest tips,news and course</h1> <br>
+                <p >Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et <br> dolore magna aliqua. Quis ipsum ultrices</p>
+            </div>
+
+             <!-- Slide 1 -->
+            <div class="carousel w-full">
+              <div id="slide-1" class="carousel-item relative w-full">
+                <div class="grid grid-cols-1 lg:grid-cols-3 px-16 gap-10 my-20">
+                  <!-- card-01  -->
+                  <div class="card w-96  ">
+                    <figure><img src="images/div.thumb.png" alt="Shoes" class="rounded-xl" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">5 Graphic Design Skills That Will
+                        Strengthen Your Creativity</h2>
+                      <p>Apr 9, 2020</p>
+                    </div>
+                  </div>
+                  <!-- card-02  -->
+                  <div class="card w-96 ">
+                    <figure><img src="images/div.single-blog-inner.png" alt="Shoes" class="rounded-xl" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">5 Graphic Design Skills That Will
+                        Strengthen Your Creativity</h2>
+                      <p>Apr 9, 2020</p>
+                    </div>
+                  </div>
+                  <!-- card-03  -->
+                  <div class="card w-96 ">
+                    <figure><img src="images/div.single-blog-inner (1).png" alt="Shoes" class="rounded-xl" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">5 Graphic Design Skills That Will
+                        Strengthen Your Creativity</h2>
+                      <p>Apr 9, 2020</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide-3" class="btn btn-circle hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">❮</a> 
+                  <a href="#slide-2" class="btn btn-circle hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">❯</a>
+                </div>
+              </div>
+              <!--- Slide 2  -->
+              <div id="slide-2" class="carousel-item relative w-full">
+                <div class="grid grid-cols-1 lg:grid-cols-3 px-16 gap-10 my-20">
+                  <!-- card-01  -->
+                  <div class="card w-96  ">
+                    <figure><img src="images/div.thumb.png" alt="Shoes" class="rounded-xl" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">5 Graphic Design Skills That Will
+                        Strengthen Your Creativity</h2>
+                      <p>Apr 9, 2020</p>
+                    </div>
+                  </div>
+                  <!-- card-02  -->
+                  <div class="card w-96 ">
+                    <figure><img src="images/div.single-blog-inner.png" alt="Shoes" class="rounded-xl" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">5 Graphic Design Skills That Will
+                        Strengthen Your Creativity</h2>
+                      <p>Apr 9, 2020</p>
+                    </div>
+                  </div>
+                  <!-- card-03  -->
+                  <div class="card w-96 ">
+                    <figure><img src="images/div.single-blog-inner (1).png" alt="Shoes" class="rounded-xl" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">5 Graphic Design Skills That Will
+                        Strengthen Your Creativity</h2>
+                      <p>Apr 9, 2020</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide-1" class="btn btn-circle hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">❮</a> 
+                  <a href="#slide-3" class="btn btn-circle hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">❯</a>
+                </div>
+              </div> 
+
+              <!-- Slide 3 -->
+              <div id="slide-3" class="carousel-item relative w-full">
+                <div class="grid grid-cols-1 lg:grid-cols-3 px-16 gap-10 my-20">
+                  <!-- card-01  -->
+                  <div class="card w-96  ">
+                    <figure><img src="images/div.thumb.png" alt="Shoes" class="rounded-xl" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">5 Graphic Design Skills That Will
+                        Strengthen Your Creativity</h2>
+                      <p>Apr 9, 2020</p>
+                    </div>
+                  </div>
+                  <!-- card-02  -->
+                  <div class="card w-96 ">
+                    <figure><img src="images/div.single-blog-inner.png" alt="Shoes" class="rounded-xl" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">5 Graphic Design Skills That Will
+                        Strengthen Your Creativity</h2>
+                      <p>Apr 9, 2020</p>
+                    </div>
+                  </div>
+                  <!-- card-03  -->
+                  <div class="card w-96 ">
+                    <figure><img src="images/div.single-blog-inner (1).png" alt="Shoes" class="rounded-xl" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">5 Graphic Design Skills That Will
+                        Strengthen Your Creativity</h2>
+                      <p>Apr 9, 2020</p>
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide-2" class="btn btn-circle hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">❮</a> 
+                  <a href="#slide-1" class="btn btn-circle hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">❯</a>
+                </div>
+              </div> 
+              
+            </div>
+
+            
+           
+        </section>
+
+       
+        <!-- The number one factor in  relevance drives out resistance. section  -->
+        <section>
+            <div class="lg:flex lg:justify-center lg:items-center px-12">
+                <div class="">
+                    <p>Join Dominie At Best</p> <br>
+                    <h1 class="text-4xl font-semibold">The number one factor in  relevance drives out resistance.</h1> <br>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <br> <br>
+                    <a class="outline rounded-tl-2xl rounded-br-2xl px-5 py-1 cursor-pointer hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">Learn More</a>
+
+                </div>
+                <div class=" px-12" >
+                    <img src="images/gold-silver.png" alt="">
+                </div>
+            </div>
+        </section>
+      </main>
+      <!-- footer    -->
+      <footer class="footer mt-20 p-10 bg-[#2D2752] text-white">
+    <aside>
+      
+      <p class="text-2xl" >EducationTemp Ltd.</p><br/>
+      <p class="w-96">Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolore eu fugiat nulla pariatur. </p>
+    </aside> 
+    <nav>
+      <header class="footer-title">Services</header> 
+      <a class="link link-hover">Branding</a>
+      <a class="link link-hover">Design</a>
+      <a class="link link-hover">Marketing</a>
+      <a class="link link-hover">Advertisement</a>
+    </nav> 
+    <nav>
+      <header class="footer-title">Company</header> 
+      <a class="link link-hover">About us</a>
+      <a class="link link-hover">Contact</a>
+      <a class="link link-hover">Jobs</a>
+      <a class="link link-hover">Press kit</a>
+    </nav> 
+    <nav>
+      <header class="footer-title">Legal</header> 
+      <a class="link link-hover">Terms of use</a>
+      <a class="link link-hover">Privacy policy</a>
+      <a class="link link-hover">Cookie policy</a>
+    </nav>
+    <nav class="footer flex pt-14  text-white ">
+        <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end lg:justify-center lg:items-center  ">
+          <a class="cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg>
+          </a>
+          <a  class="cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a>
+          <a  class="cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+        </nav>
+      </nav>
+      </footer>
+  
+</body>
+</html>
